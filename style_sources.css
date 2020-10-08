@@ -1,0 +1,259 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+
+* {
+  text-decoration: none;
+
+}
+
+body {
+  background-color: #123740;
+}
+
+header {
+  background-color: #fff;
+  border: 1px solid #707070;
+  width: 100%;
+  height: 105px;
+}
+
+.username {
+  font-family: century gothic;
+  font-weight: bold;
+  font-size: 12px;
+  color: #123740;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  width: 49.54px;
+  height: 9.19px;
+  padding: 55.98px 17.05px;
+}
+
+#logo {
+  background-image: url('img/PngItem_686925.png');
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 53px;
+  position: absolute;
+  left: 16px;
+  top: 10px;
+  padding: 8px 17px;
+  background-repeat: no-repeat;
+}
+
+header .header-brand {
+  font-family: century gothic;
+  font-weight: bolder;
+  font-size: 56px;
+  color: #F1802D;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  width: 186.87px;
+  height: 42.25px;
+  padding: 15.77px 178.12px;
+}
+
+header nav ul {
+display: block;
+margin: 0 auto;
+margin-bottom: 68px;
+width: fit-content;
+}
+
+header nav ul li {
+display: inline-block;
+float: left;
+list-style: none;
+padding: 0px 16px;
+}
+
+header nav ul li a {
+  font-family: century gothic;
+  font-weight: bolder;
+  font-size: 25px;
+  color: #123740;
+}
+
+/*SOURCES*/
+
+.flat-contacts {
+    width: 100%;
+    height: 494px;
+    background-image: url('img/anotherflat.jpg');
+    background-repeat: no-repeat;
+    display: table;
+}
+
+.flat-contacts ul {
+ width: fit-content;
+ float: left;
+ padding-left: 80px;
+ padding-top: 60px;
+}
+
+.flat-contacts ul li{
+  display: block;
+  list-style: none;
+}
+
+.flat-contacts p {
+  font-family: century gothic;
+  font-weight: bolder;
+  line-height: 24px;
+  font-size: 20px;
+  color: #f1f1f1;
+}
+
+.flat-contacts a {
+  font-family: century gothic;
+  font-weight: italic;
+  line-height: 24px;
+  font-size: 20px;
+  color: #f1f1f1;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  margin: 0px;
+  background-color: #123740;
+  overflow: hidden;
+}
+
+footer ul {
+ width: fit-content;
+ float: left;
+ padding-left: 20px;
+}
+
+footer ul li{
+  display: block;
+  list-style: none;
+}
+
+footer ul li p{
+  font-family: century gothic;
+  font-weight: bolder;
+  line-height: 25px;
+  font-size: 14px;
+  color: #f1f1f1;
+}
+
+.footer-sm {
+  width: 60px;
+  float: right;
+}
+
+.footer-sm img {
+  width: 100%;
+  margin-bottom: 10px;
+}
