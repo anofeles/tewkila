@@ -179,6 +179,39 @@ header nav ul li a {
   color: #123740;
 }
 
+
+
+@media only screen and (min-width: 1000px) {
+
+  #logo {
+    width: 10%;
+  }
+
+  header nav ul {
+  margin-right: 450px;
+  margin-left: 450px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  }
+
+  header nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 16px;
+  }
+
+  header nav ul li a {
+    display: block;
+    padding: 10px;
+    font-family: century gothic;
+    line-height: 50px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #123740;
+  }
+
+}
+
 /*SOURCES*/
 
 .flat-contacts {
@@ -217,7 +250,17 @@ header nav ul li a {
   color: #f1f1f1;
 }
 
+@media only screen and (min-width: 1000px) {
+  .flat-contacts {
+  background-image: url('img/anotherflat.jpg');
+  height: 762px;
+  width: 1920px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
 
+}
 
 /*FOOTER*/
 

@@ -175,17 +175,53 @@ header nav ul li a {
   color: #123740;
 }
 
+
+
+@media only screen and (min-width: 1000px) {
+
+  #logo {
+    width: 10%;
+  }
+
+  header nav ul {
+  margin-right: 450px;
+  margin-left: 450px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  }
+
+  header nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 16px;
+  }
+
+  header nav ul li a {
+    display: block;
+    padding: 10px;
+    font-family: century gothic;
+    line-height: 50px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #123740;
+  }
+
+}
+
 /*GALLERY*/
+body {
+background-color: #DFDFDF;
+}
 
 .Shark-photos {
-padding: 20px 0px;
+  padding: 20px 0px;
+
 }
 
 .Shark-photos img {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
-  padding: 16px
-  padding-bottom: 80px;
+  padding: 16px;
   width: 383px;
   height: 223px;
 }
@@ -197,7 +233,32 @@ padding: 20px 0px;
   color: #549AAB;
   padding: 16px;
 }
- 
+
+@media only screen and (min-width: 1000px) {
+
+  .Shark-photos {
+    padding: 20px 300px;
+
+  }
+
+  .Shark-photos img {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 16px;
+    width: 383px;
+    height: 223px;
+  }
+
+  .Shark-photos p {
+    font-family: century gothic;
+    font-weight: bold;
+    font-size: 18px;
+    color: #549AAB;
+    padding: 16px;
+    text-shadow: 1px 1px 1px #000000;
+  }
+
+}
 
 /*FOOTER*/
 
